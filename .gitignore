@@ -1,0 +1,82 @@
+# Ignore .NET build artifacts
+bin/
+obj/
+
+# User-specific files (IDE settings, etc.)
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.dbmdl
+*.pidb
+
+# Ignore crash reports and application logs
+*.log
+
+# Ignore Visual Studio temp files, build logs, etc.
+*.vs/
+*.psess
+[Tt]humbs.db
+*.DS_Store
+.vscode/
+.idea/
+
+# Rider specific
+.idea/
+.idea_modules/
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Ignore any Mac specific hidden files
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# Build directories for iOS, Android, and Windows
+*.ipa
+*.apk
+*.ap_
+*.app
+
+# iOS specific
+# Generated files by Xcode when you open the project for iOS builds
+*.pbxproj
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+*.mode1v3
+*.mode2v3
+*.xcscheme
+*.xcodeproj/
+*.xcuserdatad/
+ios/Pods/
+ios/Podfile.lock
+
+# Android specific
+*.androidlib
+*.apk
+*.ap_
+*.dex
+*.apk
+*.aab
+*.obb
+.android/
+
+# Windows specific
+# Windows Universal App Image file caches
+[Dd]ebugPublicTest/
+# App packages
+*.appx
+*.appxbundle
+# Directories for deployment and publishing
+AppPackages/
+BundleArtifacts/
+
+# Configurations and runtime files
+appsettings.json
+secrets.json
+.env
